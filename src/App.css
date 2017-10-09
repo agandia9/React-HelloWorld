@@ -1,3 +1,7 @@
-/*body{
-	background-color: white;
-}*/
+.jumbotron form{
+	padding-bottom: 10px;
+}
+.jumbotron ul{
+	list-style: none;
+	font-size: 18px;
+}

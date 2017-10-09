@@ -50,7 +50,7 @@ class App extends Component {
 
   render() {
 	return (
-	<div className="jumbotron">
+	<div className="container">
 		<h1>Welcome to React, {this.props.helloTo}</h1>
 		<button onClick={this.handleClick}>click me!</button>
 		<p> clicks => {this.state.clicks}</p>
