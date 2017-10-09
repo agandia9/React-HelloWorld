@@ -2,14 +2,17 @@
 import ReactDOM from 'react-dom';
 //Import React and Component from the same lib using dec.ES6
 import React, { Component } from 'react';
-//Import CDSS
+//Import CSS
 import './App.css';
 
 //Create first component using Class
 class App extends Component {
   render() {
+  	let myName = 'Alex'
 	return (
-	  <h1>Welcome to React World!</h1>
+	<div>
+		<h1>Welcome to React, {myName}</h1>
+	</div>
 	);
   }
 }
